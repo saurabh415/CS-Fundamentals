@@ -1,0 +1,337 @@
+<!-- This is doctype -->
+<!DOCTYPE html>
+<!-- Our HTML code starts here -->
+<html lang="en">
+<!-- Our Head tag starts here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>navigation plus subjects</title>
+    <style>
+
+        body{
+            background-color: rgb(126, 134, 138);
+            font-family: cursive;
+            font-size: 22px;
+        }
+        h1{
+            font-size: 40px;
+            padding-left: 580px;
+            padding-top: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-family: cursive;
+
+        }
+        .navbar{
+            background-color: black;
+            margin-top: 1px;
+            margin-bottom: 30px;
+           border-radius: 5px;
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+           list-style: none;
+            float: left;
+            margin-top: 00px;
+            margin-bottom: 22px;
+            border-color: white;
+            font-family: cursive;
+       
+        }
+        .navbar li a{
+            margin-top: 4px;
+            margin-bottom: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-decoration: none;
+            color: white;
+       
+        }
+        .navbar li a:hover{
+            color: rgb(98, 112, 112);
+        }
+        .leftmenu{
+           
+            text-decoration:none;
+            padding-left: 3px;
+            font-size: 20px;
+        }
+        .leftmenu ul{
+            float: left;
+        
+        }
+        .leftmenu li{
+            text-decoration: none;
+            font-family: cursive;
+        }
+   
+        .leftmenu li a{
+            text-decoration: none;
+            font-size: 23px;
+            color: rgb(12, 160, 197);
+        }
+        .leftmenu li a:hover{
+            color: rgb(177, 31, 31);
+            border:4px solid rgba(0, 7, 7, 0.384);
+            border-radius:  4px;
+        }
+        .firsttopic{background-color: rgb(134, 235, 164);
+            border: 2px solid rgb(2, 2, 10);
+            /*      top right bottom left */
+            padding-left: 5px 00px 5px 10px;
+            padding-inline-start: 10px;
+            padding-inline-end: 10px;
+            padding-block-end: 5px;
+            padding-block-start:5px ;
+            /*      top right bottom left */
+            margin: 00px 200px 10px 2px;
+            margin-block-start:10px; ;
+            margin-block-end:10px ;
+            margin-inline-start:10px ;
+            margin-inline-end:10px ;
+            margin-block:10px ;
+            margin: inline 199px; ;
+            margin-trim:100px ;
+            /*      top right bottom left */
+            border:  100px 120px 80px 2px;
+            border-radius: 40px;
+            font-size: 22px;
+         }
+ 
+        
+    </style>
+</head> 
+<body>
+    <header>
+        <nav class="navbar">
+          <ul>
+            <h1 style="color: rgb(112, 129, 129);">CS-Fundamentals</h1>
+            <li><a href="MAINPAGE.html">Home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact us</a></li>
+           <ul>
+        </nav>
+    </header>
+
+    <body><!--the pattern i follow here should be same for every question and answer-->
+    <div class ="firsttopic"><!---This block is filled by saurabh -->
+        <details open>
+     
+    <!--this block should be same for evrey questions-->
+        <summary style="color: rgb(15, 101, 151);">[1] :  DATA STRUCTURES (only IMP topics)</summary> <br>
+        <!--Every block for every questions starts here....... -->
+        <p1>(1). Which of these best describes an array? <br>
+                       a) A data structure that shows a hierarchical behavior <br>
+                       b) Container of objects of similar types <br>
+                       c) Arrays are immutable once initialised <br>
+                       d) Array is not a data structure
+        </p1>
+            <details>
+                <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                <p0>Answer: b <br>
+                    Explanation: Array contains elements only of the same type.
+                </p0>
+            </details> <br>
+        <!--and every block ends here same process you have to revise plz when working on this 
+        fix things should be in goods manneer aankh band krke codes ma likhna plz alignment bigad sakta hai-->        
+
+        <p1>(2). How do you initialize an array in C? <br>
+                    a) int arr[3] = (1,2,3); <br>
+                    b) int arr(3) = {1,2,3};<br>
+                    c) int arr[3] = {1,2,3};<br>
+                    d) int arr(3) = (1,2,3);
+        </p1>
+             <details>
+                 <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                 <p0>Answer: c <br>
+                    Explanation: This is the syntax to initialize an array in C.
+                 </p0>
+             </details> <br>  
+
+        
+        <p1>(3).When does the ArrayIndexOutOfBoundsException occur? <br>
+                a) Compile-time <br>
+                b) Run-time <br>
+                c) Not an error <br>
+                d) Not an exception at all
+        </p1>
+             <details>
+             <summary style="color: rgb(58, 61, 55);">Answer</summary>
+             <p0>Answer: b <br>
+                Explanation: ArrayIndexOutOfBoundsException is a run-time exception and the compilation is error-free.
+             </p0>
+            </details> <br>       
+        </p1>
+        <p1>(4). Which of the following concepts make extensive use of arrays? <br>
+            a) Binary trees <br>
+            b) Scheduling of processes <br>
+            c) Caching <br>
+            d) Spatial locality
+        </p1>
+            <details>
+            <summary style="color: rgb(129, 141, 143);">Answer</summary>
+            <p0>Answer: d <br>
+                Explanation: Whenever a particular memory location is referred to, it is likely that 
+                the locations nearby are also referred, arrays are stored as contiguous 
+                blocks in memory, so if you want to access array elements, spatial locality makes it to access quickly.
+            </p0>
+            </details> <br>       
+        </p1>
+
+        </details>
+
+        <p>
+            5) How can we describe an array in the best possible way?<br>
+
+             (a)The Array shows a hierarchical structure.<br>
+            (b) Arrays are immutable.<br>
+            (c) Container that stores the elements of similar types<br>
+            (d) The Array is not a data structure<br>
+
+            <details>
+                <summary style="color: rgb(58, 61, 55);">Answer</summary>
+            <p0>Answer: c <br>
+           
+            Explanation: The answer is c because array stores the elements in a contiguous block of memory of similar types. Therefore, we can say that array is a container that stores the elements of similar types.
+            </p0>
+            </details>
+
+            <p>
+                6) Which of the following is the correct way of declaring an array?<br>
+
+                   (a) int javatpoint[10];<br>
+                   (b) int javatpoint;<br>
+                   (c) javatpoint{20};<br>
+                   (d) array javatpoint[10];<br>
+
+                   <details>
+                    <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                <p0>Answer: a <br>
+               
+                Explanation: The answer is a because int specifies the type of the array, javatpoint is the name of the array, and 10 is the size of the array enclosed within the square brackets.
+                </p0>
+                </details>
+                </p>  
+
+
+                <p>
+                    7) Which of the following is the advantage of the array data structure?<br>
+
+                       (a) Elements of mixed data types can be stored.<br>
+                       (b) Easier to access the elements in an array<br>
+                        (c)Index of the first element starts from 1.<br>
+                       (d) Elements of an array cannot be sorted<br>
+
+
+                       <details>
+                        <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                    <p0>Answer: b <br>
+                   
+                    Explanation: The answer is b because the elements in an array are stored in a contiguous block of memory, so it is easier to access the elements of an array through indexing.
+
+
+                    </p0>
+                    </details>
+                    </p>  
+
+
+                    <p>
+
+                        8) Which of the following highly uses the concept of an array?<br>
+
+                              (a)  Binary Search tree<br>
+                              (b)  Caching<br>
+                               (c) Spatial locality<br>
+                         (d) Scheduling of Processes<br>
+
+                         <details>
+                            <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                        <p0>Answer: c <br>
+                       
+                        Explanation: The answer is c, i.e., Spatial locality. Here, spatial locality means that the instruction accessed recently, then the nearby memory location would be accessed in the next iteration. As we know that in an array, all the elements are stored in a contiguous block of memory, so spatial locality is accessed quickly.
+                        </p0>
+                        </details>
+                        </p>  
+
+
+                        <p>
+                            9) Which of the following is the disadvantage of the array?<br>
+
+
+                               (a) Stack and Queue data structures can be implemented through an array.<br>
+                              (b)  Index of the first element in an array can be negative<br>
+                              (c)  Wastage of memory if the elements inserted in an array are lesser than the allocated size<br>
+                              (d)  Elements can be accessed sequentially.<br>
+
+                              <details>
+                                <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                            <p0>Answer: c <br>
+                           
+                            Explanation: The answer is c. For example, if we have an array of size 10 elements and we have inserted only 5 elements in an array then there is a wastage of 5 memory blocks which cannot be utilized by another variable.
+                            </p0>
+                            </details>
+                            </p>  
+
+
+
+                            <p>
+
+
+                                10) What is the output of the below code?<br>
+
+                                        #include <stdio.h>  <br>
+                                        int main()  <br>
+                                        {  
+                                        int arr[5]={10,20,30,40,50};  <br>
+                                        printf("%d", arr[5]);  <br>
+                                        
+                                            return 0;  <br>
+                                        }  <br>
+                                       (a) Garbage value<br>
+                                      (b)  10<br>
+                                      (c)  50<br>
+                                       (d) None of the above<br>
+
+
+                                       <details>
+                                        <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                                    <p0>Answer: a <br>
+                                   
+                                    Explanation: The answer is a because the indexing in an array starts from 0, so it starts from arr[0] to arr[4]. If we try to access arr[5] then the garbage value will be printed.
+                                    </p0>
+                                    </details>
+                                    </p>  
+
+                            </p>
+
+
+
+                        
+
+
+
+
+                    
+
+
+
+                
+
+
+
+            
+
+        </p>
+    </div>    
+    </body>
+
+
+
+</body> 
+</html>  
