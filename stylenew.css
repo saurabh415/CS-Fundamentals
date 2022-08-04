@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*to box model*/
+}
+/*global styles*/
+
+body{
+    font-family: cursive;
+    background-color:rgb(166, 252, 252);
+    overflow-x: hidden;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 00;
+    align-items: center;
+    background-color: rgb(1, 3, 3);
+    border-radius: 12px;
+    margin: 20px 00px;
+    padding: 20px 00px;
+    
+}
+.navbar_brand{
+
+
+}
+
+.nav_item{
+    background-color: rgb(0, 2, 2);
+    color:white;
+    border-radius: 6px;
+    
+  
+}
+.navbar_logo{
+    color: white;
+}
+.container{
+    padding: 0 10px;
+
+}
+.hero_image{
+    width: 100%;
+    
+}
+.hero_container{
+    width: 100%;
+}
+hero_image_container{
+    width: 100%;
+
+
+}
+.hero_text{
+    font-size: 40px;
+    margin:20px 00px;
+}
+ /*menu styles */
+ .explore_menu_contaier{
+     margin-top: 50px;
+  
+ }
+ .explore_menu_text{
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 60px;
+ }
+
+    .subject_menu_card{
+        width: 100%;
+        background-color: rgb(7, 95, 86);
+        border-radius: 8px;
+        margin-bottom: 20px;
+
+    }
+    .subject_image{
+        width: 100%;
+        height: 200px;
+        border-radius: 8px 8px 0 0;
+    }
+    .explore_menu_contaier{
+        padding: 00 15px;
+    }
+    .subject_menu_card_description{
+        padding:15px;
+        text-align: center;
+    }
+    .subject_text{
+        text-decoration: none;
+        color: white;
+    }
+    .many_more_button{
+        font-size: 20px;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(39, 28, 26);
+    
+    }
+    .view_more_button{
+        text-align: center;
+    }
+    
+  
+
+
+
+
+@media (min-width: 768px){
+    .navbar{
+        justify-content: space-between;
+        padding:10px 20px;
+
+    }
+    .navbar_logo{
+        font-size: 30px;
+    }
+    .nav_item{
+        font-size: 15px;
+       
+       
+    }.hero_container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap:50px;
+
+    }
+    .explore_menu_lists{
+        display: flex;
+        gap:8px
+    }
+    /*services*/
+    .h1_text{
+        color: cornflowerblue;
+    }
+    .cards{
+        display: flex;
+        gap: 10px;
+    }
+    .Give_us_mail{
+        font-family: sans-serif;
+        color: darkcyan;
+    }
+    .Happy_learning{
+        text-align: center;
+        margin: 40px;
+        color: rgb(139, 223, 43);
+    }
+
+
+
+}
+@media (min-width: 1020px)
+{
+    .container{
+        max-width: 1010px;
+    }
+ 
+
+
+
+
+
+@media (min-width:1400px){
+
+ 
+}
+
+/*services css */
+.heading_text{
+    text-align: center;
+}
+.firsttopic{background-color: rgb(134, 235, 164);
+    border: 2px solid rgb(2, 2, 10);
+    /*      top right bottom left */
+    padding-left: 5px 00px 5px 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-end: 5px;
+    padding-block-start:5px ;
+    /*      top right bottom left */
+    margin: 00px 200px 10px 2px;
+    margin-block-start:10px; ;
+    margin-block-end:10px ;
+    margin-inline-start:10px ;
+    margin-inline-end:10px ;
+    margin-block:10px ;
+    margin: inline 199px; ;
+    margin-trim:100px ;
+    /*      top right bottom left */
+    border:  100px 120px 80px 2px;
+    border-radius: 40px;
+    font-size: 22px;
+    
+
+}
+.cards_container{
+   
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+
+   
+}
+.h1_text{
+    color: cornflowerblue;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+}
+.Give_us_mail{
+    font-family: sans-serif;
+    color: darkcyan;
+}
+.Happy_learning{
+    text-align: center;
+    margin: 40px;
+    color: rgb(139, 223, 43);
+}
+
+
+
+
