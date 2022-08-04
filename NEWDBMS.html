@@ -1,0 +1,208 @@
+<!-- This is doctype -->
+<!DOCTYPE html>
+<!-- Our HTML code starts here -->
+<html lang="en">
+<!-- Our Head tag starts here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>navigation plus subjects</title>
+    <link rel="stylesheet" href="stylenew.css" />
+    <style>
+
+   
+        
+    </style>
+</head> 
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <h1 class="navbar_logo">CS-Fundamentals</h1>
+            </div>
+            <div class="navbar_items">
+                <a href="index.html" ><button class="nav_item">Home</button></a>
+                <a href="SERVICES.html" ><button class="nav_item">services</button></a>
+                <a href="#" ><button class="nav_item">about us</button></a>
+                
+            </div>
+        </nav>
+    </header>
+
+
+<body>
+    <div class="firsttopic">
+        <details open>
+            <summary style="color: rgb(11, 111, 168);">[1] (DATA BASE MANAGEMENT SYSTEM)</summary><br>
+            <p>(1)What are the different types of languages that are available in the DBMS?<br>
+
+                Answer:  Basically, there are 3 types of languages in the DBMS as mentioned below:<br>
+                
+                [1]-DDL: DDL is Data Definition Language which is used to define the database and structure <br>
+                 by using some set of SQL Queries like CREATE, ALTER, TRUNCATE, DROP and RENAME.<br>
+                [2]-DCL: DCL is Data Control Language which is used to control the access of the users <br>
+                 inside 
+                 database by using some set of SQL Queries like GRANT and REVOKE.<br>
+                [3]-DML: DML is Data Manipulation Language which is used to do some manipulations  <br> the 
+                database like Insertion, Deletion, etc. by using some set of SQL Queries <br>
+                like SELECT, INSERT, DELETE and UPDATE.
+            </p>
+            <br>
+            <p>(2) Which of the following is not  a NoSql database?<br>
+                Answers: (a)MongoDB<br>
+                (b)Firebase<br>
+                (c)Sqlite3<br>
+                (d)None of the above<br>
+                <details>
+                    <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                    <p0>Answer: b <br>
+                       Explanation: SqLite3
+                    </p0>
+                   </details> <br>    
+            </p>
+            <br>
+            <p> 
+                3) Which of the following is generally used for performing tasks like creating  <br> the structure of the relations, deleting relation?<br>
+
+                Answers:  (a)  DML(Data Manipulation Language)<br>
+                    (b) Query <br>
+                    (c) Relational Schema<br>
+                    (d) DDL(Data Definition Language)<br>
+                    <details>
+                        <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                    <p0>Answer: d <br>
+                       Explanation: The term "DDL" stands for Data Definition Language, used to perform all <br> other essential tasks such as deleting relation and related schemas in defining the structure relation.
+                    </p0>
+                    </details>
+            </p>
+            <br>
+
+            <p>
+                4) Which of the following provides the ability to query information from the database <br> and insert tuples into, delete tuples from, and modify tuples in the database?<br>
+
+                    (a)DML(Data Manipulation Language)<br>
+                    (b) DDL(Data Definition Language)<br>
+                    (c) Query<br>
+                    (d)Relational Schema<br>
+                    <details>
+                        <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                    <p0>Answer: a <br>
+                   
+                    Explanation: The term "DDL" stands for Data Definition Language, used to perform <br> all other essential tasks such as deleting relation and related schemas in defining the structure relation.
+                    </p0>
+                    </details>
+
+                <p>
+                    <br>
+                    5) The given Query can also be replaced with_______:<br>
+
+                    SELECT name, course_id  <br>
+                    FROM instructor, teaches  <br>
+                    WHERE instructor_ID= teaches_ID;  <br>
+                   (a) Select name,course_id from teaches,instructor where instructor_id=course_id;<br>
+                    (b)Select name, course_id from instructor natural join teaches;<br>
+                    (c)Select name, course_id from instructor;<br>
+                   (d) Select course_id from instructor join teaches;<br>
+
+                   <details>
+                    <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                <p0>Answer: b <br>
+               
+                Explanation: Join clause joins two tables by matching the common column
+                </p0>
+                </details>
+                </p>  
+
+                <p>
+                    <br>
+                    6) Which one of the following given statements possibly contains the error?<br>
+
+                    (a)select * from emp where empid = 10003;<br>
+                    (b)select empid from emp where empid = 10006;<br>
+                    (c)select empid from emp;<br>
+                    (d)select empid where empid = 1009 and Lastname = 'GELLER';<br>
+
+                    <details>
+                        <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                    <p0>Answer: d <br>
+                   
+                    Explanation: The Query given in option D does not contain the "from" clause, which specifies the relation from which the values have to be selected or fetched. Therefore the correct answer is D.
+                    </p0>
+                    </details>
+                   
+                    <p>
+                        <br>
+
+                        7) What do you mean by one to many relationships?<br>
+
+                           (a) One class may have many teachers<br>
+                            (b)One teacher can have many classes<br>
+                            (c)Many classes may have many teachers<br>
+                            (d)Many teachers may have many classes<br>
+
+                            <details>
+                                <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                            <p0>Answer: d <br>
+                                Explanation: We can understand the "one to many" relationship as a teacher who may have more than one class to attend.
+
+
+                            </p0>
+                        </details>   
+
+                        <p>
+                            <br>
+
+                            8) The given Query can be replaced with ____________:<br>
+
+                            SELECT name  <br>
+                            FROM instructor1  <br>
+                            WHERE salary <= 100000 AND salary >= 90000;  <br>
+                            a.<br>
+                            
+                            SELECT name  <br>
+                            FROM instructor1  <br>
+                            WHERE salary BETWEEN 100000 AND 90000  <br>
+                            b.<br>
+                            
+                            
+                            SELECT name  <br>
+                            FROM instructor|  <br>
+                            WHERE salary BETWEEN 90000 AND 100000;  <br>
+                            c.<br>
+                            
+                            SELECT name  <br>
+                            FROM instructor1  <br>
+                            WHERE salary BETWEEN 90000 AND 100000;  <br>
+                            d.<br>
+                            
+                            SELECT name  <br>
+                            FROM instructor!  <br>
+                            WHERE salary <= 90000 AND salary>=100000;  <br>
+
+
+
+                            <details>
+                                <summary style="color: rgb(58, 61, 55);">Answer</summary>
+                            <p0>Answer: c <br>
+                           
+                            Explanation:  The "SQL" contains a comparison known as the "BETWEEN," which is also used in one of the given queries, as you can see. The "BETWEEN" operator is generally used to simplify the "WHERE" clause that is used to specify that the value is greater than one value or greater than some values, less than one or more values.
+                            </p0>
+                            </details>
+
+
+                        </p>
+                    </p>
+
+
+                </p>
+            </p>
+        </details>
+    </div>
+
+</body>
+
+
+
+</body> 
+</html>  
